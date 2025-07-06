@@ -1,0 +1,7 @@
+.idea/
+.venv/
+venv/
+weather_bot/.venv/
+__pycache__/
+logs/
+weather_bot/logs/
