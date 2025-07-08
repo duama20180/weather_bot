@@ -7,6 +7,22 @@ A Telegram bot that delivers real-time weather forecasts using Weatherstack API,
 - Receive AI-generated clothing tips based on weather conditions.
 - Set daily weather notification schedules.
 - Supports multiple locations with inline keyboard selection.
+  
+## Usage
+
+- Send /start to initialize the bot.
+- Select Forecast for current weather or AI tips for clothing recommendations.
+- Customize notifications with Current schedule and Change or set schedule.
+
+https://github.com/user-attachments/assets/967cc774-65f1-44a1-9836-361152fa3551
+
+
+## Dependencies
+
+- aiogram: For Telegram bot framework
+- aiohttp: For asynchronous HTTP requests
+- asyncpg: For PostgreSQL database integration
+- google-genai: For AI-powered weather descriptions and tips
 
 ## Setup
 
@@ -40,19 +56,6 @@ A Telegram bot that delivers real-time weather forecasts using Weatherstack API,
 6. Run the bot:
    ```bash
    python main.py
-
-## Usage
-
-- Send /start to initialize the bot.
-- Select Forecast for current weather or AI tips for clothing recommendations.
-- Customize notifications with Current schedule and Change or set schedule.
-
-## Dependencies
-
-- aiogram: For Telegram bot framework
-- aiohttp: For asynchronous HTTP requests
-- asyncpg: For PostgreSQL database integration
-- google-genai: For AI-powered weather descriptions and tips
 
 ## License
 #### MIT License
